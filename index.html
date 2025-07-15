@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สนุกเกอร์โปรชียงใหม่ ไทยแลนด์เ</title>
+  <link rel="icon" href="Images/bird.jpg" type="image/jpg">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const players = document.querySelectorAll(".player");
+      players.forEach((el, i) => {
+        el.style.opacity = 0;
+        el.style.transform = "translateY(20px)";
+        setTimeout(() => {
+          el.style.transition = "all 1.5s ease";
+          el.style.opacity = 1;
+          el.style.transform = "translateY(0)";
+        }, i * 200);
+      });
+    });
+  </script>
+</head>
+<body class="blackground">
+
+  <header>
+    <h1>PRO SNOOKER SOOD HOD Chiang Mai</h1>
+
+  </header>
+
+  <nav>
+    <a href="index.html">หน้าหลัก</a>
+    <a href="highlight.html">ไฮไลต์เด็ดๆ</a>
+  </nav>
+
+  <div class="content">
+    <div class="box">
+      <h2>รายชื่อโปรสนุกเกอร์ที่ติดอันดับในเว็ปไซต์</h2>
+
+      <div class="player-box">
+  <div class="player">
+    <img src="Images/bird.jpg" alt="พัทธดนย์ กาชัย" class="avatar">
+    <div class="player-info">
+      <p class="name">พัทธดนย์ กาชัย (เซียนเบิร์ดโต๊ะฟรี)</p>
+    </div>
+  </div>
+  <hr class="divider">
+  <ul class="stat">
+    <li>แข่งทั้งหมด: 24 นัด</li>
+    <li>ชนะ: 18 นัด</li>
+    <li>เปอร์เซ็นต์ชนะ: 75%</li>
+    <li>เบรกสูงสุด: 92 แต้ม</li>
+    <li>สไตล์: แทงเร็ว</li>
+    <li>มุดโต๊ะ: 4 ครั้ง</li>
+  </ul>
+</div>
+
+<div class="player-box">
+  <div class="player">
+    <img src="Images/prem.jpg" alt="ธีรเมธ คำจา" class="avatar">
+    <div class="player-info">
+      <p class="name">ธีรเมธ คำจา (เสี่ยเปรมติดโต๊ะ)</p>
+    </div>
+  </div>
+  <hr class="divider">
+  <ul class="stat">
+    <li>แข่งทั้งหมด: 30 นัด</li>
+    <li>ชนะ: 6 นัด</li>
+    <li>เปอร์เซ็นต์ชนะ: 20%</li>
+    <li>เบรกสูงสุด: 20 แต้ม</li>
+    <li>สไตล์: แทงเน้นปลอดภัย</li>
+    <li>มุดโต๊ะ: 10 ครั้ง</li>
+  </ul>
+</div>
+
+<div class="player-box">
+  <div class="player">
+    <img src="Images/fang.jpg" alt="ศุภฤกษ์ อุดมกสพ" class="avatar">
+    <div class="player-info">
+      <p class="name">ศุภฤกษ์ อุดมกสพ (เซียนฟ่างลูกจ้างเฮีย)</p>
+    </div>
+  </div>
+  <hr class="divider">
+  <ul class="stat">
+    <li>แข่งทั้งหมด: 27 นัด</li>
+    <li>ชนะ: 20 นัด</li>
+    <li>เปอร์เซ็นต์ชนะ: 74%</li>
+    <li>เบรกสูงสุด: 97 แต้ม</li>
+    <li>สไตล์: แทงไว ดุดัน</li>
+    <li>มุดโต๊ะ: 5 ครั้ง</li>
+  </ul>
+</div>
+
+<div class="player-box">
+  <div class="player">
+    <img src="Images/porp.jpg" alt="ผไทภักดิ์ อาจวิจิตร" class="avatar">
+    <div class="player-info">
+      <p class="name">ผไทภักดิ์ อาจวิจิตร (เซียนพอเพียงเสียบเงียบเหมือนผีแทง)</p>
+    </div>
+  </div>
+  <hr class="divider">
+  <ul class="stat">
+    <li>แข่งทั้งหมด: 35 นัด</li>
+    <li>ชนะ: 26 นัด</li>
+    <li>เปอร์เซ็นต์ชนะ: 74.3%</li>
+    <li>เบรกสูงสุด: 85 แต้ม</li>
+    <li>สไตล์: คม เงียบ แม่นยำ</li>
+    <li>มุดโต๊ะ: 7 ครั้ง</li>
+  </ul>
+</div>
+
+<div class="player-box">
+  <div class="player">
+    <img src="Images/kla.jpg" alt="ธนกฤต กุณะแสงคำ" class="avatar">
+    <div class="player-info">
+      <p class="name">ธนกฤต กุณะแสงคำ (เซียนกล้าแทงทะลุโต๊ะ)</p>
+    </div>
+  </div>
+  <hr class="divider">
+  <ul class="stat">
+    <li>แข่งทั้งหมด: 22 นัด</li>
+    <li>ชนะ: 17 นัด</li>
+    <li>เปอร์เซ็นต์ชนะ: 77.3%</li>
+    <li>เบรกสูงสุด: 90 แต้ม</li>
+    <li>สไตล์: กล้าแลก กล้าชน</li>
+    <li>มุดโต๊ะ: 3 ครั้ง</li>
+  </ul>
+</div>
+
+    </div>
+
+    <div class="rules-box">
+  <h2>ประวัติกีฬาสนุกเกอร์</h2>
+  <p>กีฬาสนุกเกอร์เริ่มต้นในประเทศอังกฤษในศตวรรษที่ 19 โดยได้รับความนิยมอย่างรวดเร็วในหมู่ทหารอังกฤษที่ประจำการในอินเดีย 
+  และต่อมาแพร่หลายไปทั่วโลก สนุกเกอร์มีชื่อเสียงระดับนานาชาติ และมีนักกีฬามืออาชีพจากหลายประเทศรวมถึงประเทศไทยด้วย</p>
+    </div>
+
+    <div class="rules-box">
+  <h2>อุปกรณ์ที่ใช้ในการเล่นสนุกเกอร์</h2>
+  <ul class="equipment-list">
+    <li>
+      <img src="Images/cue.png" alt="ไม้คิว" class="equipment-img">
+      <p>ไม้คิว (Cue)</p>
+    </li>
+    <li>
+      <img src="Images/table.png" alt="โต๊ะสนุกเกอร์" class="equipment-img">
+      <p>โต๊ะสนุกเกอร์ ขนาดมาตรฐาน 12 ฟุต</p>
+    </li>
+    <li>
+      <img src="Images/balls.png" alt="ลูกสนุกเกอร์" class="equipment-img">
+      <p>ลูกสนุกเกอร์ (แดง 15 ลูก, สีต่าง ๆ 6 ลูก, ลูกขาว 1 ลูก)</p>
+    </li>
+    <li>
+      <img src="Images/chalk.jpg" alt="ชอล์กทาไม้คิว" class="equipment-img">
+      <p>ชอล์กทาไม้คิว</p>
+    </li>
+    <li>
+      <img src="Images/cuebridge.jpg" alt="ไม้ช่วยแทง" class="equipment-img">
+      <p>ไม้ช่วยแทง (สำหรับลูกที่อยู่ไกล)</p>
+    </li>
+  </ul>
+</div>
+
+    <div class="rules-box">
+      <h2>กติกาการเล่น สนุกเกอร์</h2>
+      <p>สนุกเกอร์เป็นกีฬาที่ใช้ไม้คิวแทงลูกบอลบนโต๊ะผ้าสีเขียว โดยมีเป้าหมายเพื่อเก็บคะแนนให้ได้มากที่สุด 
+      โดยผู้เล่นต้องแทงลูกตามลำดับและตามกติกาดังนี้:</p>
+
+      <ul>
+        <li>เริ่มต้นด้วยการแทงลูกขาวไปชนลูกแดง (มีทั้งหมด 15 ลูก)</li>
+        <li>เมื่อแทงลูกแดงลงหลุม 1 ลูก จะได้ 1 คะแนน และต่อด้วยการเลือกแทงลูกสี 
+          (เช่น เหลือง เขียว น้ำตาล ฟ้า ชมพู ดำ)</li>
+        <li>ลูกสีจะมีคะแนนต่างกัน:
+          <ul class="inner-list">
+            <li>เหลือง = 2</li>
+            <li>เขียว = 3</li>
+            <li>น้ำตาล = 4</li>
+            <li>ฟ้า = 5</li>
+            <li>ชมพู = 6</li>
+            <li>ดำ = 7</li>
+          </ul>
+        </li>
+        <li>หลังจากแทงลูกสี จะต้องกลับมาแทงลูกแดงสลับกันไปเรื่อย ๆ</li>
+        <li>เมื่อไม่มีลูกแดงเหลือบนโต๊ะ ให้แทงลูกสีตามลำดับ: <strong>เหลือง → เขียว → น้ำตาล → ฟ้า → ชมพู → ดำ</strong></li>
+        <li>หากแทงลูกผิดลำดับ หรือทำฟาวล์ (เช่น แทงลูกขาวลงหลุม) จะเสียคะแนนให้ฝ่ายตรงข้าม</li>
+        <li>ผู้ที่ทำคะแนนรวมได้มากที่สุดในแต่ละเฟรม จะเป็นผู้ชนะในเฟรมนั้น</li>
+      </ul>
+
+      <p>การแข่งขันเต็มรูปแบบมักมีหลายเฟรม ผู้ที่ชนะจำนวนเฟรมมากที่สุดคือผู้ชนะในการแข่งขัน</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 | Pattarasai jaipong 037</p>
+  </footer>
+
+</body>
+</html>

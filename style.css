@@ -3,6 +3,7 @@
       background-color: #f2f2f2;
       margin: 0;
       padding: 0;
+      font-family: "Sarabun", Arial, sans-serif;
     }
 
     header {
@@ -11,6 +12,12 @@
     padding: 20px;
     text-align: center;
     }
+
+    header h1 {
+  font-size: 32px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+  font-weight: bold;
+}
 
     nav {
       background-color: #228B22;
@@ -129,18 +136,26 @@
   padding: 5px;
 }
 
-@media (max-width: 600px) {
-  .equipment-list li {
-    width: 100%;
+@media (max-width: 768px) {
+  .highlight-box video {
+    max-width: 100%;
   }
+
   .player {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .avatar {
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
+  }
+
+  .player-info {
+    text-align: center;
+    width: 100%;
   }
 }
+
 
 .equipment-img:hover {
   transform: scale(1.05);
@@ -166,10 +181,10 @@
 }
 
 .name {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 0;
-  color: #222;
+  color: #003300;
+  margin-bottom: 5px;
 }
 
 .divider {
@@ -187,16 +202,23 @@
 }
 
 .stat li {
-  margin-bottom: 3px;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
-.highlight-box {
-  background-color: white;
-  border: 2px solid #006400;
+.highlight-box video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 3px 6px rgba(0, 100, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 100, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.highlight-box video:hover {
+  transform: scale(1.02);
 }
 
 .highlight-title {
@@ -206,4 +228,6 @@
   margin-top: 10px;
   text-align: center;
 }
+
+
 

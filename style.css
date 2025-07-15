@@ -190,3 +190,20 @@
   margin-bottom: 3px;
 }
 
+.highlight-box {
+  background-color: white;
+  border: 2px solid #006400;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0, 100, 0, 0.2);
+}
+
+.highlight-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #006400;
+  margin-top: 10px;
+  text-align: center;
+}
+
